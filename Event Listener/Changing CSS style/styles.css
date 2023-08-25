@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+   
+    
+}
+
+div:nth-child(3) {
+    align-self: flex-end;
+    background: pink;
+  }
