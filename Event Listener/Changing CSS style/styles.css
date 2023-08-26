@@ -1,14 +1,7 @@
-div{
-    display: flex;
-    
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: center;
-   
-    
+.mouseover{
+    color: brown;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
-div:nth-child(3) {
-    align-self: flex-end;
-    background: pink;
-  }
