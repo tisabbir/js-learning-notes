@@ -24,6 +24,7 @@ var centerY = c.height / 2;
 
 ctx.beginPath();
 ctx.arc(centerX,centerY,80,0,2*Math.PI,false);
+// ctx.arc(12,12,80,0,2*Math.PI,false);
 ctx.fillStyle = "red";
 ctx.fill();
 ctx.stroke();
